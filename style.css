@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 62.5%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+:root{
+    --darkblue: rgb(37,133,148);
+    --blue: rgb(79,204,224);
+    --bluea: rgba(79,204,224, 0.5);
+    --lightblue: rgb(115,236,255);
+    --darkred: rgb(185,4,30);
+    --red: rgb(224,91,91);
+}
+
+h1{
+    font-family: 'Lato', Helvetica;
+}
+p{
+    font-family: 'Bitter', Helvetica;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    background-color: rgb(53, 53, 53);
+    font-size: 4rem;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+}
+
+nav ul{
+    list-style: none;
+    margin-left: auto;
+}
+nav a{
+    color:white;
+}
+
+nav img{
+    width: 200px;
+    margin:0.5rem;
+}
+.button{
+    border: 0px;
+    border-style: none;
+    background-color: rgba(62, 124, 187, 0.8);
+    margin: 1rem;
+}
+
+.body{
+    font-size: 5rem;
+}
+.greet{
+    text-align: center;
+    background-color: gainsboro;
+    height: 50vh;
+    padding-top: 40vh;
+    font-size: 5rem;
+}
+.greet p{
+    font-size: 2rem;
+}
+.greet button{
+    margin-top: 10vh;
+    padding:3rem;
+}
+.welcome{
+    padding: 15vh 2vh 4vh 2vh;
+    height: 70vh;
+}
+.gallery{
+    height: 50vh;
+    padding: 15vh 2vh 4vh 2vh;
+    background-color: gainsboro;
+}
+.contact{
+    height:60vh;
+    padding: 15vh 2vh 4vh 2vh;
+}
+.map{
+    height: 40vh;
+    background-color: gainsboro;
+    padding: 1vh 2vh 4vh 2vh;
+}
