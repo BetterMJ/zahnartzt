@@ -10,14 +10,15 @@
 }
 
 :root{
-    --darkblue: rgb(37,133,148);
-    --darkbluea: rgba(37,133,148,0.95);
+    --darkblue: rgb(50, 176, 195);
+    --darkbluea: rgba(50, 176, 195, 0.9);
     --blue: rgb(79,204,224);
     --bluea: rgba(79,204,224, 0.9   );
     --lightblue: rgb(115,236,255);
     --darkred: rgb(185,4,30);
     --red: rgb(224,91,91);
-}
+    --blacka: rgba(0, 0, 0, 0.6);
+}   
 
 h1{
     font-family: 'Lato', Helvetica;
@@ -31,7 +32,8 @@ html{
 }
 
 nav{
-    background-color: rgb(61, 61, 61);
+    /*background-color: rgb(61, 61, 61);*/
+    background-color: var(--darkbluea);
     font-size: 4rem;
     display: flex;
     width: 100%;
@@ -41,15 +43,17 @@ nav{
     position: sticky;
     overflow: hidden;
     top: 0;
+    margin-bottom: -10vh;
 }
 
 nav ul{
     list-style: none;
     margin-left: auto;
 }
+
 nav a{
     font-family: 'Lato', Helvetica;
-    color:rgb(172, 172, 172);
+    color: gainsboro;
     text-decoration: none;
     
     padding: 0px 10px 0px 10px;
@@ -65,64 +69,127 @@ nav img{
 .button{
     border: 0px;
     border-style: none;
-    background-color: rgba(62, 124, 187);
+    background-color: var(--darkbluea);
     margin: 1rem;
-    color: rgb(205, 205, 205);
+    color: gainsboro
 }
 
 .body{
     font-size: 5rem;
 }
+
 .greet{
     text-align: center;
-    color: rgb(200, 200, 200);
-    background-color: rgba(0, 0, 0, 0.6);
-    height: 50vh;
+    color: gainsboro;
+    background-color: var(--blacka);
+    height: 60vh;
     padding-top: 40vh;
     font-size: 5rem;
 }
+
 .bg{
     background-image: url(Praxis.jpg);
     background-repeat: none;
     background-size: cover;
+    background-position: right;
 }
+
 .greet p{
     font-size: 2rem;
 }
+
 .greet button{
     margin-top: 10vh;
     padding:2rem;
     border-radius: 10px;
 }
+
 .welcome{
     padding: 15vh 2vh 4vh 2vh;
     height: 75vh;
+    color: gainsboro;
     background-color: var(--darkbluea) 
 }
+
 .welcome img{
     margin-top: 30px;
     height: 350px;
 }
+
 .welcomebg{
     background-image: url(img/image11.jpeg);
     background-size: cover;
+    background-position: bottom;
 }
 .gallery{
     height: 50vh;
     padding: 15vh 2vh 4vh 2vh;
     background-color: gainsboro;
 }
+
 .contact{
-    height:60vh;
+    height: 13  0vh;
     padding: 15vh 2vh 4vh 2vh;
     /*background-color: var(--darkblue);*/
-    background-color: var(--darkbluea)
+    background-color: var(--darkbluea);
     padding-left: 50px;
     color: gainsboro;
+}
+.contact a{
+    color: rgb(39, 39, 39);
+    text-decoration: none;
+}
+
+.contact button{
+    background-color: var(--lightblue);
+    padding: 1vw;
+    border-radius: 10px;
 }
 .contactbg{
     background-image: url(img/image1.jpeg);
     background-size: cover;
+}
+.call{
+    margin: 5vh;
+    text-align: center;
+}
+.call button{
+    margin-top:20px;
+}
+.hours{
+    text-align: center;
+    margin: 5vh;
+}
+.address{
+    text-align: center;
+    margin: 5vh;
+}
+.address button{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+form {
+    font-family: 'Bitter', Helvetica;
+    font-size: 2em;
+    padding: 1em;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: grey;
+}
+
+input,textarea {
+    display: block;
+    font-family: 'Bitter', Helvetica;
+    background-color: gainsboro;
+    width: 100%;
+}
+form button{
+    background-color: var(--red);
+    padding: 1.5vh;
+    margin-top: 10px;
+}
+textarea{
+    height: 10vh;
 }
 .map{
     background-color: gainsboro;
@@ -145,9 +212,10 @@ nav img{
 }
 
 footer{
-    height: 30vh;
+    height: 10vh;
     background-color: var(--darkblue);
     color: gainsboro;
+    padding: 5vh 2vh 4vh 2vh;
 }
 
 @media only screen and (min-width: 600px){
