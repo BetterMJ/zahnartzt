@@ -44,6 +44,7 @@ nav{
     overflow: hidden;
     top: 0;
     margin-bottom: -10vh;
+    z-index: 5;
 }
 
 nav ul{
@@ -92,6 +93,7 @@ nav img{
     background-repeat: none;
     background-size: cover;
     background-position: right;
+    background-attachment:fixed;
 }
 
 .greet p{
@@ -102,18 +104,21 @@ nav img{
     margin-top: 10vh;
     padding:2rem;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .welcome{
     padding: 15vh 2vh 4vh 2vh;
     height: 1000px;
     color: gainsboro;
-    background-color: var(--darkbluea) 
+    background-color: var(--darkbluea);
 }
 
 #stardentimg{
     margin-top: 30px;
-    height: 350px;
+    border-radius: 50px;
+    width: 80vw;
+    height: auto;
 }
 
 .welcomebg{
@@ -125,66 +130,55 @@ nav img{
 .bild{
     position: absolute;
     left: 50px;
-    top: 1610px;
+    top: 1470px;
 }
 
 
 .bild img {
     border-radius: 70px;
+    width: 25vw;
+    height: auto;
     border: 4px solid #a3a3a3;
 }
 
-
 .stars {
-
     position: absolute;
-
-    left: 40px;
-
-    top: 1580px;
-
+    top: 1400px;
+    left: -40px;
 }
 
+.stars img{
+    width: 90vw;
+}
 
 .back{
-
     background-image: none;
-
     position: absolute;
-
     left: 40px;
-
-    top: 1600px;
-
+    top: 1400px;
 }
 
 .back img {
-
     border-radius: 15px;
-
     border: 4px solid #000;
-
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.747);
-
+    width: 80vw;
+    height: 30vh;
 }
 
-
 .txt {
-
     position: absolute;
-
-    left: 200px;
-
-    top: 1690px;
-
-    font-size: 40px;
-
+    left: 180px;
+    top: 1490px;
+    font-size: 36px;
+    height: 30vh;
+    width: 40vw;
 }
 
 .cstname{
     position: absolute;
     left: 200px;
-    top: 1800px;
+    top: 1600px;
     font-size: 30px;
     color: black;
 }
@@ -192,9 +186,58 @@ nav img{
 .gallery{
     height: 50vh;
     padding: 15vh 2vh 4vh 2vh;
-    background-color: gainsboro;
+    background-color: rgba(220, 220, 220, 0.922);
 }
 
+#gallerybg{
+    background-image: url(img/image15.jpeg);
+}
+
+.slider {
+    width: 90vw;
+    height: 30vh;
+    background: url(img/image1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 100px auto;
+    animation: slide 20s infinite;
+    text-align: center;
+    background-position: center;
+}
+
+@keyframes slide {
+    20% {
+      background: url(img/image1.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    40% {
+      background: url(img/image13.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    60% {
+      background: url(img/image5.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    80% {
+      background: url(img/image4.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top;
+    }
+    100% {
+      background: url(img/image9.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+}
+  
 .contact{
     height: 13  0vh;
     padding: 15vh 2vh 4vh 2vh;
@@ -212,6 +255,7 @@ nav img{
     background-color: var(--lightblue);
     padding: 1vw;
     border-radius: 10px;
+    cursor: pointer;
 }
 .contactbg{
     background-image: url(img/image1.jpeg);
@@ -223,6 +267,7 @@ nav img{
 }
 .call button{
     margin-top:20px;
+    cursor: pointer;
 }
 .hours{
     text-align: center;
@@ -235,6 +280,7 @@ nav img{
 .address button{
     margin-top:20px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 form {
     font-family: 'Bitter', Helvetica;
@@ -255,6 +301,7 @@ form button{
     background-color: var(--red);
     padding: 1.5vh;
     margin-top: 10px;
+    cursor: pointer;
 }
 textarea{
     height: 10vh;
@@ -293,5 +340,71 @@ footer{
     #bigmap{
         display: block;
     }
+    #stardentimg{
+        width: 800px;
+        height: auto;
+    }
+    /*Rezension*/
+    .bild{
+        position: absolute;
+        left: 50px;
+        top: 1810px;
+    }
     
+    
+    .bild img {
+        border-radius: 70px;
+        width: 250px;
+        height: auto;
+        border: 4px solid #a3a3a3;
+    }
+    
+    .stars {
+        position: absolute;
+        top: 1800px;
+        left: 200px;
+    }
+    
+    .stars img{
+        width: 500px;
+    }
+    
+    .back{
+        background-image: none;
+        position: absolute;
+        left: 40px;
+        top: 1800px;
+    }
+    
+    .back img {
+        border-radius: 15px;
+        border: 4px solid #000;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.747);
+        width: 80vw;
+        height: 30vh;
+    }
+    
+    .txt {
+        position: absolute;
+        left: 350px;
+        top: 1890px;
+        font-size: 36px;
+        height: 30vh;
+        width: 40vw;
+    }
+    
+    .cstname{
+        position: absolute;
+        left: 500px;
+        top: 2000px;
+        font-size: 30px;
+        color: black;
+    }
+
+    .slider{
+        height: 80vh;
+    }
+    .gallery{
+        height: 110vh;
+    }
 }
