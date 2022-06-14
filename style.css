@@ -67,13 +67,14 @@ nav img{
 
 .contactsubmit{
     cursor: pointer;
-    padding: 10px 60px;
-    background-color: rgba(130, 212, 225, 0.902);
+    padding: 10px 30px;
+    background-color: rgba(195, 53, 53, 0.902);
     border: 0;
     outline: none;
     font-size: 22px;
     font-weight: 500;
-    border-radius: 30px;
+    border-radius: 15px;
+    color: white;
 }
 
 .popup{
