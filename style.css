@@ -56,9 +56,7 @@ nav a{
     font-family: 'Lato', Helvetica;
     color: gainsboro;
     text-decoration: none;
-    
-    padding: 0px 10px 0px 10px;
-    margin: 0px 10px 0px 10px;
+    padding-left: 10px;
 }
 
 nav img{
@@ -67,6 +65,74 @@ nav img{
     border-radius: 50px;
 }
 
+.contactsubmit{
+    cursor: pointer;
+    padding: 10px 60px;
+    background-color: rgba(130, 212, 225, 0.902);
+    border: 0;
+    outline: none;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+}
+
+.popup{
+    width: 300px;
+    background-color: rgba(231, 231, 231, 1);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 20px 20px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+    border-radius: 30px;
+}
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup img{
+    width: 100px;
+    border-radius: 100px;
+    margin-top: -50px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.popup h1{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popup h4{
+    font-size: 15px;
+    font-family: 'Bitter', Helvetica;
+}
+
+.popup button{
+    padding:20px;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    background: #49acd6;
+    color: gainsboro;
+    border: 0;
+    outline: none;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+
+#CloseButtonPopup{
+    width: 100%;
+    background-color: #d64949;
+}
 .button{
     border: 0px;
     border-style: none;
