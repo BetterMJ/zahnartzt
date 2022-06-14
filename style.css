@@ -378,7 +378,7 @@ form {
 }
 
 .form-control {
-  width: 55rem;
+  width: 90vw;
   background: transparent;
   border: none;
   outline: none;
@@ -393,8 +393,8 @@ input {
 }
 
 #my-form-button {
-  width: 16rem;
-  font-size: 18px;
+  width: 13rem;
+  font-size: 16px;
   font-weight: 600;
   color: #fff;
   cursor: pointer;
