@@ -328,8 +328,8 @@ nav img{
 }
 
 .contact button{
-    background-color: var(--lightblue);
-    padding: 1vw;
+    background-color: var(--darkbluea);
+    padding: 20px;
     border-radius: 10px;
     cursor: pointer;
 }
