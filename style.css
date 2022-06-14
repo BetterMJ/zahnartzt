@@ -10,8 +10,8 @@
 }
 
 :root{
-    --darkblue: rgb(50, 176, 195);
-    --darkbluea: rgba(50, 176, 195, 0.9);
+    --darkblue: #fffafa9f;
+    --darkbluea: 	#fffff08f;
     --blue: rgb(79,204,224);
     --bluea: rgba(79,204,224, 0.9   );
     --lightblue: rgb(115,236,255);
@@ -22,6 +22,7 @@
 
 h1{
     font-family: 'Lato', Helvetica;
+    color: rgb(141, 26, 26);
 }
 p{
     font-family: 'Bitter', Helvetica;
@@ -54,7 +55,7 @@ nav ul{
 
 nav a{
     font-family: 'Lato', Helvetica;
-    color: gainsboro;
+    color: rgb(141, 26, 26);
     text-decoration: none;
     padding-left: 10px;
 }
@@ -139,7 +140,8 @@ nav img{
     border-style: none;
     background-color: var(--darkbluea);
     margin: 1rem;
-    color: gainsboro
+    color: rgb(167, 36, 36);
+    text-shadow: 0 0 1px black;
 }
 
 .body{
@@ -148,7 +150,8 @@ nav img{
 
 .greet{
     text-align: center;
-    color: gainsboro;
+    color: rgb(141, 26, 26);
+    text-shadow: 0 0 6px black;
     background-color: var(--blacka);
     height: 60vh;
     padding-top: 40vh;
@@ -177,14 +180,17 @@ nav img{
 .welcome{
     padding: 15vh 2vh 4vh 2vh;
     height: 1000px;
-    color: gainsboro;
+    color: rgb(141, 26, 26);
     background-color: var(--darkbluea);
 }
 
 #stardentimg img {
-    margin-top: 30px;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 1.5%;
     border-radius: 50px;
-    width: 50vw;
+    width: 90vw;
+    max-width: 500px;
     height: auto;
 }
 
@@ -197,7 +203,7 @@ nav img{
 .bild{
     position: absolute;
     left: 50px;
-    top: 1470px;
+    top: 1720px;
 }
 
 
@@ -210,7 +216,7 @@ nav img{
 
 .stars {
     position: absolute;
-    top: 1400px;
+    top: 1650px;
     left: -40px;
 }
 
@@ -221,8 +227,8 @@ nav img{
 .back{
     background-image: none;
     position: absolute;
-    left: 40px;
-    top: 1400px;
+    left: 35px;
+    top: 1650px;
 }
 
 .back img {
@@ -235,17 +241,20 @@ nav img{
 
 .txt {
     position: absolute;
+    font-family: 'Lato', Helvetica;
     left: 180px;
-    top: 1490px;
+    top: 1720px;
     font-size: 36px;
     height: 30vh;
     width: 40vw;
+    color: rgb(141, 26, 26);
 }
 
 .cstname{
     position: absolute;
+    font-family: 'Lato', Helvetica;
     left: 200px;
-    top: 1600px;
+    top: 1850px;
     font-size: 30px;
     color: black;
 }
@@ -311,7 +320,7 @@ nav img{
     /*background-color: var(--darkblue);*/
     background-color: var(--darkbluea);
     padding-left: 50px;
-    color: gainsboro;
+    color: rgb(141, 26, 26);
 }
 .contact a{
     color: rgb(39, 39, 39);
@@ -394,6 +403,7 @@ input {
   text-align: center;
   border: none;
   background-size: 300% 100%;
+  background-color: var(--red);
   border-radius: 50px;
   box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.315);
 }
