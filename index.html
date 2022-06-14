@@ -21,7 +21,9 @@
     <nav>
         
         <img src="Logo.jpg" alt="Logo">
-        <a href="#contact">Contact</a>
+        <!--<a href="#contact">Contact</a>-->
+        <a href="#thetop"><button type="submit" class="contactsubmit" onclick="openPopup()">Contact</button></a>
+        
         <a href="#welcome">About</a>
             <!--<div class="subnav">
             fa fa thing is icon
@@ -33,9 +35,21 @@
                 <a href="#map">Map</a>
             </div>-->
     </nav>
+    <div class="popup" id="popup">
+        <img src="Logo.jpg" alt="">
+        <h1>Contact Information</h1>
+        <h4>Our Tel.: +12 398 120</h4>
+        <a href="tel: +383-44-160-117"><button>Click to Call</button></a>
 
+        <h1>Find us</h1>
+        <h4>longstreet 20 5123 Prishtina</h4> 
+        <a href="https://www.google.com/maps/dir//Stardent+Ordinanca+Stomatologjike/data=!4m8!4m7!1m0!1m5!1m1!1s0x13549fc6666dde81:0x3ea874b8eccd149b!2m2!1d21.172367599999998!2d42.672068599999996"><button>Click for Directions</button></a>
+
+        <button type="button" onclick="closePopup()" id="CloseButtonPopup">Close</button>
+    </div>
     <div class="body">
-        <div class="bg">
+        
+        <div class="bg" id="thetop">
             <div class="greet">
                 <h1>Stardent Prishtina</h1>
                 <p>Dr. Bashkim Karakushi</p>
@@ -139,5 +153,15 @@
         </footer>
 
     </div>
+
+<script>
+    let popup = document.getElementById("popup");
+    function openPopup(){
+        popup.classList.add("open-popup")
+    }
+    function closePopup(){
+        popup.classList.remove("open-popup")
+    }
+</script>
 </body>
 </html>
