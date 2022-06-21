@@ -61,7 +61,7 @@ Am 5.4.2022 hat Matteo ein Portfolio gemacht, wo er als Verbesserungsvorschlag h
 Wir haben dies versucht in dem wir eine visuelle Darstellung der Webseite gemacht haben und dadurch hatte die Gruppe eine genauere Vorstellung der Webseite
 
 ## Verifikation ✅
-- Man lernt, was ein Navigationbereich (Nav) ist, im obersten Teil vom Inhalt, es hat auch ein Beispiel dazu. 
+- Man lernt, was ein Navigationsbereich (Nav) ist, im obersten Teil vom Inhalt, es hat auch ein Beispiel dazu. 
 - Man findet heraus, wie man ein Nav erstellt, im zweitobersten Teil vom Inhalt, man kann auch die Codes dazu anschauen.
 - Man findet heraus, wie man den Nav "sticky" macht im untersten Teil vom Inhalt, man kann aber auch den code im "Code CSS" Abschnitt sehen.
 
