@@ -46,12 +46,16 @@ nav{
 ### Bild der Webseite (drücken um zu besuchen)
 [![](https://i.imgur.com/TvHMOOS.png)](https://bettermj.github.io/zahnarzt/)
 ## Reflexion ✨
-Wir fanden es gut, dass wir zusammen auf Github konnten arbeiten, da wir damit einfach Code teilen konnte und nicht einer der Gruppe das Programm auf seinem Computer tragen muss. Durch Github konnten wir genauer sehen wer welche Änderungen gemacht wurden und einfach 
-Als Verbesserung könnte man .
-Zum Beispiel kann man , , anstatt.
+Wir fanden es gut, dass wir zusammen auf Github konnten arbeiten, da wir damit einfach Code teilen konnte und nicht einer der Gruppe das Programm auf seinem Computer tragen musste. Durch Github konnten wir genauer sehen wer welche Änderungen gemacht wurden und konnten schnell auf das Hauptprojekt zugreifen und haben somit sehr viel Zeit gespart.
 
-Am 5.4.2022 hat Matteo ein Portfolio gemacht, wo er als Verbesserungsvorschlag hatte, dass 
-Wir haben 
+Uns hat nicht so gefallen, dass wir meist einzeln gearbeitet haben und nicht sehr im gegenseitigen Kontakt waren und haben nur am Anfang der Lektion meist gesagt, wer was machen soll. Am Ende der Lektion sind ein paar Mitglieder nicht mit den Aufträgen fertig geworden und andere zu früh.
+
+Als Verbesserung könnte man Pair-Programming versuchen, damit die, die schneller sind, den langsarem das Thema erklären und am jeweiligen Auftrag mitarbeiten können.
+
+Zum Beispiel kann man bei dem mächsten Gruppenprojekt bei einer Webseite Teile mit einem Mitglied machen, welcher sich auskennt und einem der noch nicht so gut mit Webseiten befasst ist, anstatt dass einzelne Mitglieder hängen bleiben und regelmässig fragen, wie weit jenes Pair / Person ist.
+
+Am 5.4.2022 hat Matteo ein Portfolio gemacht, wo er als Verbesserungsvorschlag hatte, dass man bevor man anfängt zu programmieren eine Mindmap über das Thema macht und somit gezielter Ziele setzen und arbeiten kann.
+Wir haben dies versucht in dem wir eine visuelle Darstelliung der Webseite gemacht haben und dadurch hatte die Gruppe eine genauere Vorstellung der Webseite
 
 ## Verifikation ✅
 Man lernt was Unity ist im Inhalt und dann "Ein Spiel mit Unity" ganz oben. 
