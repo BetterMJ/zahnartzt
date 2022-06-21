@@ -10,13 +10,18 @@ Aus persönlichem Interesse, aber auch als Auftrag, haben wir als Gruppe unsere 
 ### Der Navigationsbereich
 Um das 
 
-### Code
+### Code HTML
 ```HTML
 Code is here
 
 ```
+### Code CSS
+```CSS
+Code is here
+
+```
 ### Bild der Webseite (drücken um zu besuchen)
-[![](https://i.imgur.com/Es7ZCve.jpg)](https://youtu.be/7_sjSURV5s8)
+[![](https://i.imgur.com/TvHMOOS.png)](https://bettermj.github.io/zahnarzt/)
 ## Reflexion ✨
 Wir fanden es gut, dass wir in der Gruppe gearbeitet haben, da uns die Grenzen und Möglichkeiten klar wurden. Zuvor haben wir in Gruppenarbeit gearbeitet, jedoch waren wir nicht wirklich voneinander abhängig. Mit Unity waren wir voneinander abhängig, da jeder wichtige Bausteine zur Funktionalität des Programmes hatte.
 Ich fand nicht so gut, dass wir nicht in der "richtigen Reihenfolge" gearbeitet haben, damit will ich zeigen, dass wir zuerst mit dem Design gearbeitet haben und erst später mit den Funktionen. Da wir uns nicht zuerst mit den Funktionen beschäftigt haben, haben wir zu viel Zeit mit dem Design verbraucht, wobei wir meist sogar zu viele Animationen hatten und somit unnötig Zeit verschwendet haben.  
