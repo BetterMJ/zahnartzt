@@ -58,7 +58,7 @@ Als Verbesserung könnte man Pair-Programming versuchen, damit die, die schnelle
 Zum Beispiel kann man bei dem nächsten Gruppenprojekt bei einer Webseite Teile mit einem Mitglied machen, welches sich auskennt und einem der noch nicht so gut mit Webseiten befasst ist, anstatt dass einzelne Mitglieder hängen bleiben. Es ist auch gut regelmässig zu fragen, wie weit jenes Pair / Person ist, damit man die Zeit besser einteilen kann.
 
 Am 5.4.2022 hat Matteo ein Portfolio gemacht, wo er als Verbesserungsvorschlag hatte, dass man bevor man anfängt zu programmieren, eine Mindmap über das Thema macht und somit gezielter Ziele setzen und arbeiten kann.
-Wir haben dies versucht in dem wir eine visuelle Darstellung der Webseite gemacht haben und dadurch hatte die Gruppe eine genauere Vorstellung der Webseite und jeder konnte etwa aussuchen was wer machen will. Es hat uns enorm Zeit gespart, denn sonst hätten wir uns gestritten wie der Nav hätte sollen aussehen oder sonstige Kleinigkeiten.
+Wir haben dies versucht in dem wir eine visuelle Darstellung der Webseite gemacht haben und dadurch hatte die Gruppe eine genauere Vorstellung der Webseite und jeder konnte etwa aussuchen, was wer machen will. Es hat uns enorm Zeit gespart, denn sonst hätten wir uns gestritten wie der Nav hätte sollen aussehen oder sonstige Kleinigkeiten, wie zum Beispiel wer jetzt lieber den Welcome-Abschnitt macht, weil es so einen schönen Knopf hat.
 
 ## Verifikation ✅
 - Man lernt, was ein Navigationsbereich (Nav) ist, im obersten Teil vom Inhalt, es hat auch ein Beispiel dazu. 
