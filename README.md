@@ -58,7 +58,7 @@ Am 5.4.2022 hat Matteo ein Portfolio gemacht, wo er als Verbesserungsvorschlag h
 Wir haben dies versucht in dem wir eine visuelle Darstelliung der Webseite gemacht haben und dadurch hatte die Gruppe eine genauere Vorstellung der Webseite
 
 ## Verifikation ✅
-Man lernt was Unity ist im Inhalt und dann "Ein Spiel mit Unity" ganz oben. 
-Man findet heraus, wie man eine Szene macht im Inhalt, "Ein Spiel mit Unity" und dann der Teil in der Mitte.
-Um über die Buttons herauszufinden, kann man zum Inhalt nochmal gehen, "Ein Spiel mit Unity" und dann der untere Teil.
+Man lernt was ein Navigationbereich (Nav) ist, im obersten Teil vom Inhalt, es hat auch ein Beispiel dazu. 
+Man findet heraus, wie wie man ein Nav erstellt, im zweit obersten Teil vom Inhalt, man kann auch die Codes dazu anschauen.
+Um über die Buttons herauszufinden, kann .
 
