@@ -1,8 +1,8 @@
 # Webseite Zahnarzt
 
 ## Aufgabenstellung
-Aus persönlichem Interesse, aber auch als Auftrag, haben wir als Gruppe unsere erste Webseite im Lernatelier programmiert. Wir haben dieses Projekt in der Gruppenarbeit gemacht, wobei dieses ein dann ein Gruppenportfolio ist. Bei diesem Portfolio gehen wir auf unsere Webseite ein und schauen uns den Navigationbereich genauer an.
-- Der Leser erfährt, was ein Navigationbereich ist.
+Aus persönlichem Interesse, aber auch als Auftrag, haben wir als Gruppe unsere erste Webseite im Lernatelier programmiert. Wir haben dieses Projekt in der Gruppenarbeit gemacht, wobei dieses ein dann ein Gruppenportfolio ist. Bei diesem Portfolio gehen wir auf unsere Webseite ein und schauen uns den Navigationsbereich genauer an.
+- Der Leser erfährt, was ein Navigationsbereich ist.
 - Der Leser lernt, wie man ein Navigationsbereich erstellt.
 - Der Leser lernt, wie man den Navigationsbereich "sticky" macht.
 
